@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def greeting():
-    return "<h1 style='color:green'>Welcome to demo flask app</h1>"
+    return "<h1 style='color:red'>Welcome to demo flask app</h1>"
 
 
 if __name__ == "__main__":
