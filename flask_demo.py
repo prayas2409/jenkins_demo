@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def greeting():
-    return """<center><h1 style='color:red'>Welcome to Jenkins Tutorial Part 2</h1>
+    return """<center><h1 style='color:green'>Welcome to Jenkins Tutorial Part 2</h1>
 		<b><p>What is Jenkins?
 		<p>What is CICD?</b>
 	</center>"""
